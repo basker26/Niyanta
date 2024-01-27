@@ -27,7 +27,11 @@ body {
 .layout_padding-bottom {
   padding-bottom: 75px;
 }
-
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 .heading_container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -91,10 +95,12 @@ body {
 .header_section .container-fluid {
   padding-right: 25px;
   padding-left: 25px;
+  background-color: #3b3a3a4c;
 }
 
 .header_section .nav_container {
   margin: 0 auto;
+  /* background-color: #b5caee; */
 }
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
@@ -114,7 +120,7 @@ body {
   width: 7px;
   height: 7px;
   border-radius: 100%;
-  background-color: #ffffff;
+  /* background-color: #b77878; */
 }
 
 a,
@@ -166,7 +172,7 @@ a:focus {
 }
 
 .navbar-brand span {
-  font-size: 24px;
+  font-size: 40px;
   color: #ffffff;
 }
 
