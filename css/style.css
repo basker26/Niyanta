@@ -1,3 +1,11 @@
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .navbar-brand span {
+    font-size: 24px;
+    color: #ffffff;
+  }
+  
+}
 body {
   font-family: "Poppins", sans-serif;
   color: #000000;
@@ -172,7 +180,7 @@ a:focus {
 }
 
 .navbar-brand span {
-  font-size: 40px;
+  font-size: 24px;
   color: #ffffff;
 }
 
